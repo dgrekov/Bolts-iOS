@@ -961,6 +961,7 @@
 				);
 				DEFINES_MODULE = YES;
 				DSTROOT = /tmp/Bolts.dst;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bolts/Bolts-Prefix.pch";
 				INFOPLIST_FILE = "Bolts/Resources/iOS-Info.plist";
@@ -984,6 +985,7 @@
 				);
 				DEFINES_MODULE = YES;
 				DSTROOT = /tmp/Bolts.dst;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bolts/Bolts-Prefix.pch";
 				INFOPLIST_FILE = "Bolts/Resources/iOS-Info.plist";
